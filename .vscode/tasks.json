@@ -54,6 +54,15 @@
             "runOptions": {
                 "runOn": "folderOpen"
             }
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "path": "src/Frontend",
+            "group": "build",
+            "problemMatcher": [],
+            "label": "npm: build - src/Frontend",
+            "detail": "tsc -b && vite build"
         }
     ]
 }
